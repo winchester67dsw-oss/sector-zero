@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сектор Ноль — Осадок</title>
+  <link rel="icon" href="../assets/osadok-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <a class="brand" href="../">
+        <img src="../assets/osadok-icon.png" alt="">
+        <div class="logo">СЕКТОР <span>НОЛЬ</span><small>вылазки в эпицентр · Осадок</small></div>
+      </a>
+      <div class="hright">
+        <div id="clock"></div>
+        <a class="back" href="../">← В меню</a>
+      </div>
+    </header>
+    <div id="status"></div>
+    <nav id="tabs">
+      <button data-tab="loc">🗺️ Локация</button>
+      <button data-tab="inv">🎒 Рюкзак</button>
+      <button data-tab="pda">📟 КПК</button>
+    </nav>
+    <main id="main"></main>
+    <footer>Сектор Ноль · режим вселенной «Осадок» · версия 0.2</footer>
+  </div>
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
